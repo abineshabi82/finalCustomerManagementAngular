@@ -1,0 +1,17 @@
+<table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Order Id</th>
+            <th scope="col">Ordered Items</th>
+            <th scope="col">Customer Id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orders|paginate:{itemsPerPage:6,currentPage:pq}">
+            <th scope="row">{{order.orderId}}</th>
+            <td>{{order.orderItem}}</td>
+            <td>{{order.id}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <pagination-controls (pageChange)="pq=$event"></pagination-controls>
