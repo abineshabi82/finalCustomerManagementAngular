@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-customer-cart-view',
   templateUrl: './customer-cart-view.component.html',
-  styleUrls: ['./customer-cart-view.component.css']
+  styleUrls: ''
 })
 export class CustomerCartViewComponent implements OnInit {
  p;
