@@ -6,8 +6,7 @@ import { CusService } from '../cus.service';
 import { ICustomer } from '../cusModel';
 @Component({
   selector: 'app-customer-map-view',
-  templateUrl: './customer-map-view.component.html',
-  styleUrls: ''
+  templateUrl: './customer-map-view.component.html'
 })
 export class CustomerMapViewComponent implements OnInit {
 
