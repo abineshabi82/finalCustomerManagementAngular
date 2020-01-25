@@ -10,8 +10,7 @@ import { ICustomer } from '../cusModel';
 import { Observable } from 'rxjs';
 @Component({
   selector: 'app-customer-cart-view',
-  templateUrl: './customer-cart-view.component.html',
-  styleUrls: ''
+  templateUrl: './customer-cart-view.component.html'
 })
 export class CustomerCartViewComponent implements OnInit {
  p;
