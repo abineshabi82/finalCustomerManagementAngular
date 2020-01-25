@@ -5,8 +5,7 @@ import { CustomersServiceService } from '../customers-service.service';
 
 @Component({
   selector: 'app-add-customer',
-  templateUrl: './add-customer.component.html',
-  styleUrls: ''
+  templateUrl: './add-customer.component.html'
 })
 export class AddCustomerComponent implements OnInit {
   //customer:ICustomer;
