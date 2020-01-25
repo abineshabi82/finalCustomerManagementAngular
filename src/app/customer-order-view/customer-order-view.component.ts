@@ -6,8 +6,7 @@ import { CustomersServiceService } from "../customers-service.service";
 
 @Component({
   selector: "app-customer-order-view",
-  templateUrl: "./customer-order-view.component.html",
-  styleUrls: ''
+  templateUrl: "./customer-order-view.component.html"
 })
 export class CustomerOrderViewComponent implements OnInit {
   pq;
