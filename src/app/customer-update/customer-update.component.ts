@@ -5,8 +5,7 @@ import { CusService } from '../cus.service';
 
 @Component({
   selector: 'app-customer-update',
-  templateUrl: './customer-update.component.html',
-  styleUrls: ''
+  templateUrl: './customer-update.component.html'
 })
 export class CustomerUpdateComponent implements OnInit {
   mapData:CustomersServiceService;
