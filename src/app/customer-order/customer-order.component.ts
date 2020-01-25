@@ -4,8 +4,7 @@ import { OrderModel } from '../orderModel';
 
 @Component({
   selector: 'app-customer-order',
-  templateUrl: './customer-order.component.html',
-  styleUrls: ''
+  templateUrl: './customer-order.component.html'
 })
 export class CustomerOrderComponent implements OnInit {
   pq;
